@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "youtube-downloader"
+version = "1.0.0"
+description = "A command-line tool for downloading authorized YouTube audio and video with yt-dlp."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [
+  { name = "youtube-downloader contributors" },
+]
+keywords = ["youtube", "yt-dlp", "audio", "video", "downloader", "cli"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "Intended Audience :: End Users/Desktop",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3.14",
+  "Topic :: Multimedia :: Video",
+  "Topic :: Multimedia :: Sound/Audio",
+]
+dependencies = [
+  "yt-dlp>=2025.1.15",
+]
+
+[project.scripts]
+youtube-downloader = "youtube_downloader:main"
+
+
+[tool.setuptools]
+py-modules = ["youtube_downloader"]

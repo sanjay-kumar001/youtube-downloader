@@ -1,0 +1,34 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and local tool state
+.venv/
+.env
+.env.*
+!.env.example
+
+# Downloaded media and local run artifacts
+downloads/
+Downloads/
+Videos/
+*.mp3
+*.m4a
+*.webm
+*.mkv
+*.mp4
+*.part
+*.ytdl
+.download-archive-*.txt
+*archive*.txt
+download-report-*.json
+
+# Editors / operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
