@@ -33,12 +33,12 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 Open a new terminal if needed, then clone and set up the project:
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/youtube-downloader.git
+git clone https://github.com/sanjay-kumar001/youtube-downloader.git
 cd youtube-downloader
 uv sync
 ```
 
-Replace `YOUR_GITHUB_USERNAME` with the GitHub account that hosts the repository. `uv sync` creates the virtual environment, installs the project and dependencies, and creates or updates `uv.lock`.
+`uv sync` creates the virtual environment, installs the project and dependencies, and creates or updates `uv.lock`.
 
 Verify the setup:
 
